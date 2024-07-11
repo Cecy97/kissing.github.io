@@ -1,0 +1,62 @@
+body{
+    background-image:url("img/zyro-image-fotor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+main{
+    background-color: rgba(128, 128, 128, 0.244);
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    margin:50px;
+}
+h1{
+    text-align: center;
+    margin:40px;
+}
+.nota{
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+    align-items: center
+}
+.atras{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.boton{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    background-color: #eb7825;
+}
+.boton:hover{
+    background-color: #ce7434;
+    color:white;
+}
+.form{
+    font-size: 18px;
+}
+input{
+    border-radius: 5px;
+    border:black solid 2px;
+    height: 30px;
+}
+.boton2{
+    margin-left: 700px;
+    height: 50px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #eb7825;
+}
+.boton2:hover{
+    background-color: #ce7434;
+    color:white;
+}
+

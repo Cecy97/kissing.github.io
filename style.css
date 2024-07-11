@@ -1,0 +1,41 @@
+body{
+    background-image:url("img/zyro-image-fotor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.vocales{
+    margin-top: 150px; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.texto{
+    background-color: rgba(255,255,255,0.5);
+    font-size: 72px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 10px;  
+}
+.play{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.jugar{
+    width: 200px;
+    height: 200px;
+}
+.boton{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #eb7825;
+    color:black;
+    border: 2px solid;
+}
+.boton:hover{
+    background-color: #ce7434;
+    color:white;
+}
